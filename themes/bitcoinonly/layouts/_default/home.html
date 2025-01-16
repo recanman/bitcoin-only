@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div id="home-page">
+    <h1 class="welcome">Welcome to Bitcoin Only, a collection of the highest quality Bitcoin resources.</h1>
+    <div class="subtitle">Click on any of the following categories to learn more.</div>
+
+    <div class="categories">
+        {{ range .Params.navigationLinks }}
+        <div class="category">
+            <a class="link-box" href="{{ .to }}">
+                <img src="{{ "icons/" | relURL }}{{ .icon }}.svg" alt="{{ .title }}">
+                <h3 class="title">{{ .title }}</h3>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

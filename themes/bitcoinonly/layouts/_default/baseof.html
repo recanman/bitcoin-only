@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html class="dark" lang="{{ .Site.LanguageCode }}">
+	{{ partial "head.html" . }}
+	<body>
+		<div class="layout">
+			{{ partial "mobile-side-nav.html" . }}
+			<div class="layout-wrapper">
+				{{ partial "mobile-top-nav.html" . }}
+				{{ partial "side-nav.html" . }}
+				<div class="main-content">
+					{{- block "main" . }}{{ end -}}
+				</div>
+			</div>
+		</div>
+		{{ partial "foot.html" . }}
+	</body>
+</html>

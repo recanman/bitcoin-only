@@ -1,0 +1,14 @@
+<div id="mobile-top-navigation" class="{{ if .Params.showMobileSideNav }}mobile-side-nav-open{{ end }}">
+    <div class="mobile-menu-toggle">
+        <input type="checkbox" id="mobile-menu-toggle" onchange="this.parentNode.classList.toggle('active');" />
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="logo">
+        <a href="{{ "/" | relURL }}">
+            <img src="{{ "/bitcoin-only-logo.png" | relURL }}" alt="Bitcoin Only" />
+        </a>
+    </div>
+</div>

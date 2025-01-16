@@ -1,0 +1,15 @@
+name = "bitcoinonly-theme"
+license = "AGPL-3.0"
+description = "Hugo theme for bitcoin-only"
+homepage = "https://github.com/rottenwheel/bitcoin-only/"
+features = []
+min_version = "0.41"
+
+authors = [
+    {name = "recanman", homepage = "github.com/recanman"},
+]
+
+[original]
+    author = "bitcoin-only"
+	homepage = "https://bitcoin-only.com"
+    repo = "https://github.com/bitcoin-only/bitcoin-only"

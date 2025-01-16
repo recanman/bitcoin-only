@@ -1,0 +1,92 @@
+baseURL = 'https://example.com/'
+languageCode = 'en-us'
+title = 'Bitcoin Only'
+theme = 'bitcoinonly'
+
+[[params.navigationLinks]]
+  title = "Home"
+  to = "/"
+
+[[params.navigationLinks]]
+  title = "What is Bitcoin?"
+  to = "/what-is-bitcoin"
+
+[[params.navigationLinks]]
+  title = "Learning Resources"
+  to = "/learning-resources"
+
+[[params.navigationLinks]]
+  title = "Meetups"
+  to = "/meetups"
+
+[[params.navigationLinks]]
+  title = "Books"
+  to = "/books"
+
+[[params.navigationLinks]]
+  title = "Wallets"
+  to = "/wallets"
+
+[[params.navigationLinks]]
+  title = "Hardware"
+  to = "/hardware"
+
+[[params.navigationLinks]]
+  title = "Podcasts"
+  to = "/podcasts"
+
+[[params.navigationLinks]]
+  title = "Get Bitcoin"
+  to = "/get-bitcoin"
+
+[[params.navigationLinks]]
+  title = "Spend Bitcoin"
+  to = "/spend-bitcoin"
+
+[[params.navigationLinks]]
+  title = "Store Tools"
+  to = "/store-tools"
+
+[[params.navigationLinks]]
+  title = "Explorers & Dashboards"
+  to = "/explorers-dashboards"
+
+[[params.navigationLinks]]
+  title = "Dev Tools"
+  to = "/dev-tools"
+
+[[params.navigationLinks]]
+  title = "Conferences"
+  to = "/conferences"
+
+[[params.navigationLinks]]
+  title = "Videos"
+  to = "/videos"
+
+[[params.navigationLinks]]
+  title = "Privacy"
+  to = "/privacy"
+
+[[params.navigationLinks]]
+  title = "Jobs"
+  to = "/jobs"
+
+[[params.navigationLinks]]
+  title = "Peers"
+  to = "/peers"
+
+[[params.navigationLinks]]
+  title = "Promote"
+  to = "/promote"
+
+[[params.navigationLinks]]
+  title = "About"
+  to = "/about"
+
+[[params.navigationLinks]]
+  title = "Contact"
+  to = "/contact"
+
+[[params.navigationLinks]]
+  title = "Listing Requirements"
+  to = "/listing-requirements"

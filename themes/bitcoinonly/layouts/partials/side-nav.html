@@ -1,0 +1,15 @@
+<div id="side-navigation">
+    <div class="logo">
+        <a href="{{ "/" | relURL }}">
+            <img src="{{ "/bitcoin-only-logo.png" | relURL }}" alt="Bitcoin Only">
+        </a>
+    </div>
+
+    <ul class="main-links">
+        {{ range .Site.Params.navigationLinks }}
+        <li>
+            <a href="{{ .to | relURL }}">{{ .title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</div>
